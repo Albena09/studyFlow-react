@@ -1,4 +1,5 @@
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaCheck } from "react-icons/fa";
+import { TiDelete } from "react-icons/ti";
 
 const Hero = () => {
   return (
@@ -16,7 +17,48 @@ const Hero = () => {
           Start for free <FaArrowRight />
         </button>
 
-        <button className="btn">See how it works</button>
+        <button className="btn">See How it Works</button>
+      </div>
+      <div>
+        <div className="card bg-base-100 w-[550px] mx-auto shadow-sm text-black space-y-4 py-4">
+          <div className="flex items-center justify-between gap-4 px-4">
+            <h2 className="font-bold text-2xl">Today's progress</h2>
+            <p className="">50% Complete</p>
+          </div>
+          <div>
+            <progress
+              className="progress progress-primary w-56 h-[10px]"
+              value={56}
+              max="100"
+            ></progress>
+            <ul className="space-y-4 p-4 ">
+              <li className="flex border border-green-500 py-4 items-center gap-4 rounded-md p-2">
+                <span className="text-green-400">
+                  <FaCheck />
+                </span>
+                Solve 2 problems in navbar section
+              </li>
+              <li className="flex border border-green-500 py-4 items-center gap-4 rounded-md p-2">
+                <span className="text-green-400">
+                  <FaCheck />
+                </span>
+                Hero section done
+              </li>
+              <li className="flex border border-green-500 py-4 items-center gap-4 rounded-md p-2">
+                <span className="text-green-400">
+                  <FaCheck />
+                </span>
+                card design done
+              </li>
+              <li className="flex border border-green-500 py-4 items-center gap-4 rounded-md p-2">
+                <span className="text-green-400">
+                  <TiDelete />
+                </span>
+                Footer sention done
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );
