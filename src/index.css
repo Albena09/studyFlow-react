@@ -3,10 +3,43 @@
 
 body {
   color: #101a16;
-  background-color: #f3f4ee;
-  background-image:
+  background-color: #F0FDF4;
+  font-family: "Roboto", sans-serif;
+  /* background-color: #f3f4ee; */
+
+  /* background-image:
     linear-gradient(to right, #2b3a33 1px, transparent 1px),
     linear-gradient(to bottom, #2b3a33 1px, transparent 1px);
   background-size: 26px 26px;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 }
+
+/* green color code */
+/* #F0FDF4
+#F0FFF4
+#ECFDF5
+#F1F8F4
+#F3FAF7 */
+
+/* blue */
+
+/* #EFF6FF
+#F0F9FF
+#F0FAFF
+#F5F9FF
+#EFFFFF */
+
+/* gray /modern */
+
+/* #F8FAFC
+#F9FAFB
+#F5F5F5
+#F8F9FA
+#F1F5F9 */
+
+/* purple */
+
+/* #FAF5FF
+#F5F3FF
+#F8F5FF
+#F3F0FF */

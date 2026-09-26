@@ -1,5 +1,6 @@
 import { FaArrowRight, FaCheck } from "react-icons/fa";
-import { TiDelete } from "react-icons/ti";
+import { IoClose } from "react-icons/io5";
+
 
 const Hero = () => {
   return (
@@ -33,26 +34,26 @@ const Hero = () => {
             ></progress>
             <ul className="space-y-4 p-4 ">
               <li className="flex border border-green-500 py-4 items-center gap-4 rounded-md p-2">
-                <span className="text-green-400">
+                <span className="text-green-400 text-[20px] ">
                   <FaCheck />
                 </span>
                 Solve 2 problems in navbar section
               </li>
               <li className="flex border border-green-500 py-4 items-center gap-4 rounded-md p-2">
-                <span className="text-green-400">
+                <span className="text-green-400 text-[20px]">
                   <FaCheck />
                 </span>
                 Hero section done
               </li>
               <li className="flex border border-green-500 py-4 items-center gap-4 rounded-md p-2">
-                <span className="text-green-400">
+                <span className="text-green-400 text-[20px]">
                   <FaCheck />
                 </span>
                 card design done
               </li>
               <li className="flex border border-green-500 py-4 items-center gap-4 rounded-md p-2">
-                <span className="text-green-400">
-                  <TiDelete />
+                <span className="text-green-400 text-[30px]">
+                  <IoClose />
                 </span>
                 Footer sention done
               </li>
