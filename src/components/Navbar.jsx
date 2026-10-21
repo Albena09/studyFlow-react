@@ -3,8 +3,8 @@ import { LuNotebookText } from "react-icons/lu"
 
 const Navbar = () => {
   return (
-    <div className="bg-[#f0f1eb]">
-       <nav className="flex justify-between gap-4 items-center py-4  container mx-auto">
+    <div className="bg-[#f0f1eb] ">
+       <nav className="flex justify-between gap-4 items-center py-4 container mx-auto">
                <span className="">
                  <LuNotebookText className="text-green-400 h-[40px] w-[40px]" />
                </span>

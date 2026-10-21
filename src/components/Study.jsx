@@ -1,7 +1,9 @@
 import React from "react";
 import { GoGoal } from "react-icons/go";
 import SectionHeader from "./shared/SectionHeader";
-import FeathersCard from "./shared/FeathersCard";
+import FeaturesCard from "./shared/FeaturesCard";
+import { HiMiniArrowTrendingUp } from "react-icons/hi2";
+import { LuCircleArrowOutUpLeft } from "react-icons/lu";
 
 const Study = () => {
   return (
@@ -23,22 +25,27 @@ const Study = () => {
           </p>
         </div> */}
         {/* ========== Reuable card componemt getting dynamically from FeatheredCard component ========== */}
-        <FeathersCard
+        <FeaturesCard
           icon={<GoGoal className="mx-auto text-[#0e7c66] text-2xl"></GoGoal>}
           title="Goals Stay vauge"
           description={
             "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
           }
         />
-        <FeathersCard
-          icon={<GoGoal className="mx-auto text-[#0e7c66] text-2xl"></GoGoal>}
+        <FeaturesCard
+          icon={
+            <HiMiniArrowTrendingUp className="mx-auto text-[#0e7c66] text-2xl" />
+          }
           title="Goals Stay vauge"
           description={
             "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
           }
         />
-        <FeathersCard
-          icon={<GoGoal className="mx-auto text-[#0e7c66] text-2xl"></GoGoal>}
+
+        <FeaturesCard
+          icon={
+            <LuCircleArrowOutUpLeft className="mx-auto text-[#0e7c66] text-2xl" />
+          }
           title="Goals Stay vauge"
           description={
             "Lorem, ipsum dolor sit amet consectetur adipisicing elit."

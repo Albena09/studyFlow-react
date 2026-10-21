@@ -1,5 +1,6 @@
-import Feathers from "./components/Feathers";
+import Features from "./components/Features";
 import Hero from "./components/Hero";
+import HowItWorks from "./components/HowItWorks";
 import Navbar from "./components/Navbar";
 import SectionHeader from "./components/shared/SectionHeader";
 import Stats from "./components/Stats";
@@ -12,9 +13,9 @@ const App = () => {
       <Hero />
       <Stats />
       <Study />
-      <Feathers />
+      <Features />
+      <HowItWorks />
       {/* <SectionHeader /> */}
-
     </div>
   );
 };

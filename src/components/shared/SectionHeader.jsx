@@ -6,7 +6,7 @@ const SectionHeader = ({ title, subtitle }) => {
   return (
     <div className="max-w-[700px] mx-auto space-y-3">
       <h2 className="font-bold text-5xl text-center">{title}</h2>
-      <p className="text-2xl text-center">{subtitle}</p>
+      <p className="text-xl text-center">{subtitle}</p>
     </div>
   );
 };
